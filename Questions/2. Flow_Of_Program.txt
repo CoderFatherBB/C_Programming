@@ -1,0 +1,7 @@
+Create flowchart and pseudocode for the following:
+1.Input a year and find whether it is a leap year or not.
+2.Take two numbers and print the sum of both.
+3.Input marks of 5 subjects and print the marks, total, percentage.
+4.Take a number as input and print the multiplication table for it.
+5.Take 2 numbers as inputs and find their HCF and LCM.
+6.Keep taking numbers as inputs till the user enters 0, after that print sum of all.
