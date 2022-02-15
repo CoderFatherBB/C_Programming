@@ -1,0 +1,79 @@
+1. Make a Calculator.
+2. Write C program to print runs scored by all batsman of a team if team is all down, total runs scored by that team and run rate if match is of 20 overs.
+3. Write program to calculate area of triangle, square, rectangle.
+4. Write program to convert Celsius to Fahrenheit and vice versa.
+5. Write program to calculate Simple and compound interest for given amount and given duration :
+6. Display list of 5 grocery items a person purchased.
+	First item is having discount of 2%.
+	Second item is having discount 3%.
+	Third item is having discount of 5%.
+	Fourth item i shaving discount 7%.
+	Fifth item is having discount of 10%.
+	Calculate cost of each item and total amount person has to pay.
+	(You can decide price of each item.)
+7. Write prg to get marks of 5 subjects. Print total and percentage.
+	If marks percentage is
+	<45 print FAIL
+	>45 and <60 Second Class
+	>60 and <75 First Class
+	>75 Distinction
+	=100 print Gold Medalist
+8. Write program for shopping mall, on purchase of 5 items,
+	if total amount is >1000 but <3000 then 5% discount
+	if total amount is >3000 but <5000 then 10% discount
+	if total amount is >5000 but <7000 then 12% discount
+	if total amount is >7000 then 15% discount
+	if total amount is >10000 then additional voucher of 1000 Rs
+9. write program for parking :
+	if vehile is 2 wheeler
+		for 1 hr 2rs
+		for 5 hr 5 rs
+		for 1 day 10 rs
+	if 4 wheeler
+		for 1 hr 5rs
+		for 5 hr 20 rs
+		for 1 day 100 rs
+	(For 7Hr 2 Wheeler amount is 5 Rs+4 RS = 9Rs)
+10. Write program to print 2 to 10 table. Take input from user for which he has to print table.
+11. Write program to print 2 to 10 table vertically(Table of 2 in first column, table of 3 in next likewise).
+12. Write program to print factorial of given number.
+13. Write program to print following pattern.
+	H H H H H
+	F F F F
+	D D D
+	B B
+14. Write program to print following pattern:
+	2 2 1 2 2
+	1 1 2 1 1
+	2 2 1 2 2
+	1 1 2 1 1	
+15. Write program to print following pattern:
+	1 2 3 4 5
+	2 1 3 4 5
+	2 3 1 4 5
+	2 3 4 1 5
+	2 3 4 5 1
+16. Display number and its square till square is less than 200.
+17. Read numbers from user and display their total. Take input till user enters 0.
+18. Read name of student and marks of 5 subjects till user enters “END”.
+19. Display first 10 numbers of Fibonacci series.
+20. Read 2 matrices from user and write program to add, subtract, multiply those two matrices.
+21. Write program to read and display names of 5 persons. Separate name, middle name and last name of each person and display.
+22. Read 10 numbers from user store in array nd display maximum and minimum out of them.
+23. Read marks of 5 subjects for 5 students. Ask user the name of student whose marks to be displayed. Display names of students who scored more than 75% and their percentage.
+24. Read string from user and display its length. (without using inbuild function)
+25. Write program to count alphabet, numbers and special characters in a string.
+26. Write program to count number of words in a string.
+27. Write program to get string from user and copy it to other variable in reverse and print.
+28. Write program to read string from user and convert all characters to upper case and then display that string.
+29. Write program to copy string from one array to another.
+30. Write program to count number of vowels in a string.
+31. Write program to count repetition of character in a string and display a character and its count having maximum repetition.
+32. Write program to store roll no, name and marks of 5 subjects for 5 students. Display all the information along with total marks and percentage.
+33. Write program to store roll no, name and marks of 5 subjects for 5 students in file. Display all the information along with total marks and percentage.
+34. Write program to store person name, account number and balance of 5 persons in file. Allow them to perform withdraw and deposit amount in their account.
+35. Write program to print Fibonacci series using loop and recursion.
+36. Write program to read 5 numbers from user. Write a function to read these 5 numbers and calculate total in another function and display total in the same function in which values are read.
+37. Write program to read number from user and display whether it is odd or even using bitwise operator.
+38. Write program to find whether given two numbers are same or not using bitwise operator.
+39. Write a program to multiply given number by 2,3,4 and display result using bitwise operator.
