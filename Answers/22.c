@@ -1,4 +1,4 @@
-// Read 10 numbers from user store in noay nd display maximum and minimum out of them.
+// Read 10 numbers from user store in an array and display maximum and minimum out of them.
 
 #include<stdio.h>
 void main()

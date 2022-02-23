@@ -3,14 +3,8 @@
 
 #include<stdio.h>
 #include<string.h>
-/*
-char name(char name[30])
-{
-    printf("\nEnter your full name : ");
-    gets(name);
-    return name;
-}
-char separate(char name[30])
+
+void separate(char name[30])
 {
     char *token = strtok(name, " ");
     while(token != NULL)
@@ -18,29 +12,39 @@ char separate(char name[30])
         printf("%s\n",token);
         token = strtok(NULL, " ");
     }
-    return 0;
 }
 void main()
 {
     char n1[30],n2[30],n3[30],n4[30],n5[30];
-    name(n1[30]);
-    name(n2[30]);
-    name(n3[30]);
-    name(n4[30]);
-    name(n5[30]);
-    separate(n1[30]);
-    separate(n2[30]);
-    separate(n3[30]);
-    separate(n4[30]);
-    separate(n5[30]);
+    printf("Person - 1 name : ");
+    gets(n1);
+    separate(n1);
+    printf("\nPerson - 2 name : ");
+    gets(n2);
+    separate(n2);
+    printf("\nPerson - 3 name : ");
+    gets(n3);
+    separate(n3);
+    printf("\nPerson - 4 name : ");
+    gets(n4);
+    separate(n4);
+    printf("\nPerson - 5 name : ");
+    gets(n5);
+    separate(n5);
+    
+    // separate(n1);
+    // separate(n2);
+    // separate(n3);
+    // separate(n4);
+    // separate(n5);
 }
-*/
+/*
 void main()
 {
     char name[30];
     for(int i=1;i<=5;i++)
     {
-        printf("\nEnter your full name : ");
+        printf("\nEnter Person %d's full name : ",i);
         gets(name);
         char *token = strtok(name, " ");
         while(token != NULL)
@@ -55,15 +59,15 @@ void main()
 void main()
 {
     char n1[30],n2[30],n3[30],n4[30],n5[30];
-    printf("person1 name : ");
+    printf("Person 1 name : ");
     gets(n1);
-    printf("person2 name : ");
+    printf("Person 2 name : ");
     gets(n2);
-    printf("person3 name : ");
+    printf("Person 3 name : ");
     gets(n3);
-    printf("person4 name : ");
+    printf("Person 4 name : ");
     gets(n4);
-    printf("person5 name : ");
+    printf("Person 5 name : ");
     gets(n5);
 
     char *token1 = strtok(n1, " ");
@@ -101,3 +105,4 @@ void main()
             token5 = strtok(NULL, " ");
         }  
 }
+*/

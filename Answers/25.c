@@ -5,10 +5,10 @@
 void main()
 {
   	char str[100];
-  	int i, alphabets, digits, special;
-  	i = alphabets = digits = special = 0;
+  	int i, alphabets, digits, special, space;
+  	i = alphabets = digits = special = space = 0;
  
-  	printf("\n Please Enter any String : ");
+  	printf("\nPlease Enter any String : ");
   	gets(str);
   	
   	while (str[i] != '\0')
@@ -21,13 +21,18 @@ void main()
   		{
   			digits++;  	
   		}    
+		else if (str[i] == ' ')
+		{
+			space++;
+		}
   		else
         {
             special++;
         }
     	i++;
 	}
-    printf("\n Number of Alphabets in this String = %d", alphabets);  
-	printf("\n Number of Digits in this String = %d", digits);  
-	printf("\n Number of Special Characters in this String = %d", special);  	
+    printf("\nNumber of Alphabets in this String = %d", alphabets);  
+	printf("\nNumber of Digits in this String = %d", digits);  
+	printf("\nNumber of Special Characters in this String = %d", special);
+	printf("\nNumber of Spaces in this Strinh is = %d",space);
 }

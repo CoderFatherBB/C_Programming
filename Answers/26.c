@@ -14,7 +14,7 @@ void main()
 	{
 		if(str[i] == ' ' || str[i] == '\n' || str[i] == '\t')
 		{
-			words++;	
+			words++;
 		} 
         // i++;
 	}	
