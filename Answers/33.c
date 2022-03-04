@@ -114,7 +114,7 @@ void display(struct Info s)
 {
     FILE *try;
     
-    if ((try = fopen("Detail.txt","w")) == NULL)
+    if ((try = fopen("Detail.txt","a")) == NULL)
     {
         printf("Unable to open");
     }
