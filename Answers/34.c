@@ -22,7 +22,7 @@ void main()
         printf("Unable to open");
     }
 
-    for (i = 0; i < 2; i++)
+    for (i = 0; i < 5; i++)
     {
         printf("\nEnter person's name : ");
         scanf("%s",&p[i].name);
@@ -48,7 +48,7 @@ void main()
                 break;
         }
     }
-    for (i = 0; i < 2; i++)
+    for (i = 0; i < 5; i++)
     {
         display(p[i]);
     }
